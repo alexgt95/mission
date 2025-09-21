@@ -1,0 +1,46 @@
+/* Default styles */
+body {
+  font-size: 20px;
+  font-family: "Times New Roman", Times, serif;
+  line-height: 1.5;
+  margin: 0;
+  padding: 0;
+  text-align: center; /* Center the main block */
+}
+
+.content {
+  max-width: 600px;
+  margin: 20px auto;
+  padding: 20px;
+}
+
+/* Titles */
+.title h1,
+.title h2 {
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  margin: 10px 0;
+}
+
+/* Subtitle specifically */
+.title h2 {
+  color: #006EB6;
+}
+
+/* Paragraphs */
+p {
+  text-align: left;
+  margin: 10px 0;
+}
+
+/* Ordered list */
+.does-list {
+  text-align: left;
+  margin: 15px 0 15px 20px;
+}
+
+/* Logo image */
+.logo {
+  width: 150px;
+  margin-top: 20px;
+}
