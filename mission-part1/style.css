@@ -22,9 +22,16 @@ body {
   margin: 10px 0;
 }
 
+/* Main title specifically */
+.title h1 {
+  font-size: 2em;
+}
+
 /* Subtitle specifically */
 .title h2 {
   color: #006EB6;
+  white-space: nowrap;
+  font-size: 1em;
 }
 
 /* Paragraphs */

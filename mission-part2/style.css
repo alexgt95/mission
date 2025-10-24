@@ -1,0 +1,65 @@
+/* Default styles */
+body {
+  font-size: 20px;
+  font-family: "Times New Roman", Times, serif;
+  line-height: 1.5;
+  margin: 0;
+  padding: 0;
+  text-align: center; /* Center the main block */
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.content {
+  max-width: 600px;
+  margin: 20px auto;
+  padding: 20px;
+}
+
+/* Titles */
+.title h1,
+.title h2 {
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  margin: 10px 0;
+}
+
+/* Main title specifically */
+.title h1 {
+  font-size: 2em;
+}
+
+/* Subtitle specifically */
+.title h2 {
+  color: #006EB6;
+  white-space: nowrap;
+  font-size: 1em;
+}
+
+/* Paragraphs */
+p {
+  text-align: left;
+  margin: 10px 0;
+}
+
+/* Ordered list */
+.does-list {
+  text-align: left;
+  margin: 15px 0 15px 20px;
+}
+
+/* Logo image */
+.logo {
+  width: 150px;
+  margin-top: 20px;
+}
+
+/* --- Dark Theme Styles --- */
+body.dark {
+  background-color: #222;
+  color: #eee;
+}
+
+body.dark .title h2 {
+  /* A lighter, more readable blue for dark backgrounds */
+  color: #75a1c4;
+}
